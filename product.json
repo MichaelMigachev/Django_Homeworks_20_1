@@ -1,0 +1,54 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "title": "nokia",
+      "description": "красивый",
+      "image": "",
+      "category": 1,
+      "price": 1000,
+      "date_of_creation": "2023-11-30T17:49:10.964Z",
+      "last_modified_date": "2023-11-30T17:49:10.964Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "title": "самсунг",
+      "description": "белый",
+      "image": "",
+      "category": 1,
+      "price": 2500,
+      "date_of_creation": "2023-11-30T17:49:53.663Z",
+      "last_modified_date": "2023-11-30T17:49:53.663Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "title": "LG",
+      "description": "мощный",
+      "image": "",
+      "category": 2,
+      "price": 1500,
+      "date_of_creation": "2023-11-30T17:50:27.245Z",
+      "last_modified_date": "2023-11-30T17:50:27.245Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "title": "funai",
+      "description": "китайский",
+      "image": "",
+      "category": 2,
+      "price": 500,
+      "date_of_creation": "2023-11-30T17:51:14.473Z",
+      "last_modified_date": "2023-11-30T17:51:14.473Z"
+    }
+  }
+]
