@@ -14,12 +14,7 @@ def index(request):
     return render(request, 'catalog/index.html', context)
 
 
-# def categories(request):
-#     context = {
-#         'object_list': Product.objects.all(),
-#         'title': 'Каталог'
-#     }
-#     return render(request, 'catalog/category_list.html', context)
+quest, 'catalog/category_list.html', context)
 
 class CategoryListView(ListView):
     model = Product
@@ -62,8 +57,7 @@ class BlogUpdateView(UpdateView):
     fields = ('title', 'slug', 'content', 'preview', 'publication_sign')
     success_url = reverse_lazy('catalog:blog_list')
 
-    #def get_success_url(self):
-    #    return reverse('catalog:blog_detail',args=[self.kwargs.get('id')])
+
 
 
 # CRUDelete
